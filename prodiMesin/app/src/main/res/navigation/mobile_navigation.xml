@@ -18,8 +18,14 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="project.uas.ppb.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_about"
+        android:name="project.uas.ppb.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_our_team"
+        android:name="project.uas.ppb.ui.ourTeam.OurTeamFragment"
+        android:label="@string/menu_our_team"
+        tools:layout="@layout/fragment_our_team" />
 </navigation>
