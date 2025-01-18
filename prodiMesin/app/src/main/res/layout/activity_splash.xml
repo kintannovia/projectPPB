@@ -38,7 +38,8 @@
         android:layout_height="294dp"
         android:layout_gravity="center"
         android:layout_marginBottom="16dp"
-        app:srcCompat="@drawable/logomesin" />
+        app:srcCompat="@drawable/logomesinnya" />
+
 
     <LinearLayout
         android:id="@+id/utama"
