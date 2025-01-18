@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detail.DosenstafActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <!-- Tombol Back -->
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            app:srcCompat="@drawable/back" />
+
+        <!-- Logo Splash -->
+        <ImageView
+            android:id="@+id/splashLogo"
+            android:layout_width="196dp"
+            android:layout_height="34dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/splashlogo" />
+
+        <!-- Judul Dosen & Staff -->
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/splashLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="@string/dosenstaff"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:fontFamily="@font/poppinsextrabold" />
+
+        <!-- Keterangan -->
+        <TextView
+            android:id="@+id/keterangan"
+            android:layout_width="387dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/ket_dosenstaff"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <GridLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="8dp"
+     >
+
+        <!-- Item 1 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/prodi" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pakroy"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_pakroy"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_pakroy"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 2 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/bufitriyani"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/drfitri"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_drfitri"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_drfitri"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 3 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/pakbudi"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pakbudi"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_pakbudi"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_pakbudi"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 4 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/pakdwi"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pak_dwi"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_pakdwi"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_pakdwi"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 5 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight ="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/pakedi"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pakedi"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_pakedi"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_pakedi"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 6 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/pakgatot"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pak_gatot"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_pakgatot"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_pakgatot"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 7 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/pakanton"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="183dp"
+                android:layout_height="194dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:gravity="center"
+                    android:text="@string/pak_anton"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:gravity="center"
+                    android:text="@string/nik_pakanton"
+                    android:textColor="@color/black"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:gravity="center"
+                    android:text="@string/jabatan_pakanton"
+                    android:textColor="@color/black"
+                    android:textSize="8sp" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 8 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/budewi"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dr_dewi"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_budewi"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_budewi"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 9 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/pakmulya"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pak_mulya"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_pakmulya"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_pakmulya"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 10 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/burizki"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bu_rizky"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_burizky"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_burizky"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 11 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/pakyogi"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pak_yogi"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_pakyogi"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_pakyogi"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 12 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/pakirvan1"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pak_irfan"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_pakirvan"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_pakirvan"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 13 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/pakaris"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pakaris"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_pakaris"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 14 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/pakmarzuki"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pak_marzuki"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_pakmarzuki"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 15 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/bugadis"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bugadis"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_bugadis"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_bugadis"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <!-- Item 16 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/pakagung"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paktri"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_paktri"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_paktri"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Item 17 -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bgdosen1" />
+
+            <ImageView
+                android:background="@drawable/circle_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/paksutejo"
+                android:clipToOutline="true"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pak_sutejo"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nik_pak_sutejo"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jabatan_paksutejo"
+                    android:fontFamily="@font/poppinsreguler"
+                    android:textColor="@color/black"
+                    android:textSize="8sp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </GridLayout>
+    </ScrollView>
+</LinearLayout>
+

@@ -12,6 +12,7 @@ import project.uas.ppb.databinding.FragmentGalleryBinding
 class GalleryFragment : Fragment() {
 
     private var _binding: FragmentGalleryBinding? = null
+
     private val binding get() = _binding!!
 
     override fun onCreateView(
