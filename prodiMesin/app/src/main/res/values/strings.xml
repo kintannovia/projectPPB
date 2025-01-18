@@ -15,4 +15,113 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!--home -->
+    <string name="judul_home">Aplikasi Prodi Mesin</string>
+    <string name="ket_home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor</string>
+    <string name="profil_prodi">Profil Program Studi</string>
+
+    <string name="dosenstaff">Dosen dan Staff</string>
+    <string name="strukor">Struktur Organisasi</string>
+    <string name="faslab">Fasilitas dan Lab</string>
+
+    <string name="ket_faslab">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit.</string>
+    <string name="ket_strukor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit.</string>
+    <string name="ket_dosenstaff">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit.</string>
+    <string name="ket_prodi">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit.</string>
+    <string name="btn">Lihat Disini ></string>
+
+
+
+    <!-- nama nama dosen dan staff mesin -->>
+    <string name="pakroy">Roy Waluyo, ST, MT</string>
+    <string name="nik_pakroy">NIK/NIDN : 410105227/409098202</string>
+    <string name="jabatan_pakroy">Ketua Program Studi</string>
+
+    <string name="drfitri">Dr. Fitriani, ST, M.Eng.</string>
+    <string name="nik_drfitri">NIK/NIDN : 410100714/413088103</string>
+    <string name="jabatan_drfitri">Sekertaris Program Studi</string>
+
+
+    <string name="pakbudi">Budi Hartono, ST, MT</string>
+    <string name="nik_pakbudi">NIK/NIDN : 410100250/402066901</string>
+    <string name="jabatan_pakbudi">Kepala Laboratorium</string>
+
+
+    <string name="pak_dwi">Dwi Yuliaji, ST, MT</string>
+    <string name="nik_pakdwi">NIK/NIDN : 410105228/412088202</string>
+    <string name="jabatan_pakdwi">Kepala Laboratorium</string>
+    
+    
+    <string name="pakedi">Edi Sutoyo, ST., M.Si.</string>
+    <string name="nik_pakedi">NIK/NIDN : 410100319/412037702</string>
+    <string name="jabatan_pakedi">Kepala Laboratorium</string>
+
+
+
+    <string name="pak_gatot">  Gatot Eka Pramono, ST, MT</string>
+    <string name="nik_pakgatot">NIK/NIDN : 410100423/421038205</string>
+    <string name="jabatan_pakgatot">Kepala Laboratorium</string>
+
+
+    <string name="pak_anton">Anton Royanto Ahmad, ST, M.Si</string>
+    <string name="nik_pakanton">NIK/NIDN : 410100567/422108902</string>
+    <string name="jabatan_pakanton">Dosen</string>
+
+
+    <string name="dr_dewi">Dr. Dewi Sondari</string>
+    <string name="nik_budewi">NIK/NIDN : 410100651/8983500020</string>
+    <string name="jabatan_budewi">Dosen</string>
+
+
+    <string name="pak_mulya">Dr. Mulya Juarsa, S.Si., MESc</string>
+    <string name="nik_pakmulya">NIK/NIDN : 410100617/8877101019</string>
+    <string name="jabatan_pakmulya">Dosen</string>
+    
+    
+    <string name="bu_rizky">Rizky Ruliandini, S.Si., M.Si.</string>
+    <string name="nik_burizky">NIK/NIDN : 410100528/429128002</string>
+    <string name="jabatan_burizky">Dosen</string>
+
+
+    <string name="pak_yogi">Yogi Sirodz Gaos, Ir., MT.</string>
+    <string name="nik_pakyogi">NIK/NIDN : 410100199/8846460018</string>
+    <string name="jabatan_pakyogi">Dosen</string>
+
+
+    <string name="pak_irfan">Irvan Wiradinata, SIKom., M.Si</string>
+    <string name="nik_pakirvan">NIK/NIDN : 410100604/8882770018</string>
+    <string name="jabatan_pakirvan">Dosen</string>
+
+
+    <string name="pakaris">Aris Haryanto, ST</string>
+    <string name="jabatan_pakaris">Buruh</string>
+
+
+    <string name="pak_marzuki">Edi Marzuki, ST</string>
+    <string name="nik_pakmarzuki">NIK : 410 100 414</string>
+
+    <string name="bugadis">Gadis Mutmainah Permatacahyani</string>
+    <string name="nik_bugadis">NIK: 410 100 612</string>
+    <string name="jabatan_bugadis">Staf Tata Usaha</string>
+
+
+    <string name="paktri">Tri Agung Susanto,ST</string>
+    <string name="nik_paktri">NIK: 410 200 3XX</string>
+    <string name="jabatan_paktri">Staf Tata Usaha</string>
+
+
+    <string name="pak_sutejo">Sutejo Prabowo, ST</string>
+    <string name="nik_pak_sutejo">NIK: 410 200 259</string>
+    <string name="jabatan_paksutejo">Buruh</string>
+
+
+    <string name="nama_satria">Satria Sudirja</string>
+    <string name="npm_satria">221106042871 | Team Leader, Mobile Development</string>
+
+    <string name="nama_kintan">Kintan Novia Azzahra</string>
+    <string name="npm_kintan">221106042937 | Mobile Development</string>
+
+    <string name="nama_kania">Bunga Kania</string>
+    <string name="npm_kania">221106042729 | Documentation</string>
+
 </resources>
