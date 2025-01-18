@@ -80,7 +80,7 @@ class Splash : AppCompatActivity() {
         handler.post(imageAnimationRunnable)
     }
 
-    // Fungsi untuk fade-out elemen dan zoom gambar
+    // Fungsi untuk fade-in lalu zoom gambar
     private fun fadeOutElementsAndZoom(zoomImage: ImageView, elementsToFadeOut: List<View>) {
         // Animasi fade-out elemen lainnya
         elementsToFadeOut.forEach { element ->
@@ -89,29 +89,45 @@ class Splash : AppCompatActivity() {
             fadeOut.start()
         }
 
-        // Zoom gambar dengan efek memudar ke putih
-        val scaleX = ObjectAnimator.ofFloat(zoomImage, "scaleX", 1f, 10f)
-        val scaleY = ObjectAnimator.ofFloat(zoomImage, "scaleY", 1f, 10f)
-        val fadeOutZoom = ObjectAnimator.ofFloat(zoomImage, "alpha", 1f, 0f)
+        // Animasi fade-in untuk zoomImage
+        val fadeInZoom = ObjectAnimator.ofFloat(zoomImage, "alpha", 0f, 1f)
+        fadeInZoom.duration = 500L // Durasi fade-in
+        fadeInZoom.start()
 
-        scaleX.duration = 1000L
-        scaleY.duration = 1000L
-        fadeOutZoom.duration = 1000L
-
-        scaleX.interpolator = AccelerateDecelerateInterpolator()
-        scaleY.interpolator = AccelerateDecelerateInterpolator()
-
-        scaleX.start()
-        scaleY.start()
-        fadeOutZoom.start()
-
-        fadeOutZoom.addListener(object : Animator.AnimatorListener {
+        // Setelah fade-in selesai, lanjutkan ke zoom
+        fadeInZoom.addListener(object : Animator.AnimatorListener {
             override fun onAnimationStart(animation: Animator) {}
 
             override fun onAnimationEnd(animation: Animator) {
-                // Buka MainActivity setelah animasi selesai
-                startActivity(Intent(this@Splash, MainActivity::class.java))
-                finish()
+                // Zoom gambar dengan efek memudar ke putih
+                val scaleX = ObjectAnimator.ofFloat(zoomImage, "scaleX", 1f, 10f)
+                val scaleY = ObjectAnimator.ofFloat(zoomImage, "scaleY", 1f, 10f)
+                val fadeOutZoom = ObjectAnimator.ofFloat(zoomImage, "alpha", 1f, 0f)
+
+                scaleX.duration = 1000L
+                scaleY.duration = 1000L
+                fadeOutZoom.duration = 1000L
+
+                scaleX.interpolator = AccelerateDecelerateInterpolator()
+                scaleY.interpolator = AccelerateDecelerateInterpolator()
+
+                scaleX.start()
+                scaleY.start()
+                fadeOutZoom.start()
+
+                fadeOutZoom.addListener(object : Animator.AnimatorListener {
+                    override fun onAnimationStart(animation: Animator) {}
+
+                    override fun onAnimationEnd(animation: Animator) {
+                        // Buka MainActivity setelah animasi selesai
+                        startActivity(Intent(this@Splash, MainActivity::class.java))
+                        finish()
+                    }
+
+                    override fun onAnimationCancel(animation: Animator) {}
+
+                    override fun onAnimationRepeat(animation: Animator) {}
+                })
             }
 
             override fun onAnimationCancel(animation: Animator) {}
@@ -119,4 +135,5 @@ class Splash : AppCompatActivity() {
             override fun onAnimationRepeat(animation: Animator) {}
         })
     }
+
 }
