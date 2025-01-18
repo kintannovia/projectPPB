@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detail.ProfilProdi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+        <!-- Tombol Back -->
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            app:srcCompat="@drawable/back" />
+
+        <!-- Logo Splash -->
+        <ImageView
+            android:id="@+id/splashLogo"
+            android:layout_width="196dp"
+            android:layout_height="34dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/splashlogo" />
+
+        <!-- Judul Dosen & Staff -->
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/splashLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="@string/profil_prodi"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:fontFamily="@font/poppinsextrabold" />
+
+        <!-- Keterangan -->
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <!-- Keterangan -->
+
+            <!-- LinearLayout 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <!-- TextView di kiri -->
+                <TextView
+                    android:layout_width="257dp"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsextrabold"
+                    android:text="@string/judul_prodi"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1" />
+
+                <!-- ImageView di kanan -->
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    app:srcCompat="@drawable/profil1" />
+            </LinearLayout>
+
+            <!-- LinearLayout 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <!-- ImageView di kiri -->
+                <ImageView
+                    android:id="@+id/gedung"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    app:srcCompat="@drawable/profil2" />
+
+                <!-- TextView di kanan -->
+                <TextView
+                    android:padding="6dp"
+                    android:layout_width="257dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/profil_text1"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <!-- LinearLayout 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <!-- TextView di kiri -->
+                <TextView
+                    android:layout_width="257dp"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profil_text2"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1" />
+
+                <!-- ImageView di kanan -->
+                <ImageView
+                    android:id="@+id/profil3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    app:srcCompat="@drawable/profil3" />
+            </LinearLayout>
+
+            <!-- LinearLayout 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <!-- ImageView di kiri -->
+                <ImageView
+                    android:id="@+id/profil4"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    app:srcCompat="@drawable/profil4" />
+
+                <!-- TextView di kanan -->
+                <TextView
+                    android:padding="6dp"
+                    android:layout_width="257dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/profil_text1"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/prospek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsextrabold"
+                android:text="@string/prospek"
+                android:textSize="14dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/prospekdesk1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsreguler"
+                android:text="@string/prospek1"
+                android:padding="10dp"
+                android:textSize="10dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/prospekdesk2"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsreguler"
+                android:padding="15dp"
+                android:text="@string/prospek2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <VideoView
+                    android:id="@+id/videoView2"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="232dp"
+                    android:src="@drawable/asosiasi" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

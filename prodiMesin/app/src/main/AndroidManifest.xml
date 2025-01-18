@@ -13,10 +13,13 @@
         android:theme="@style/Theme.ProdiMesin"
         tools:targetApi="31">
         <activity
+            android:name=".detail.ProfilProdi"
+            android:exported="false"
+            android:theme="@style/Theme.ProdiMesin.NoActionBar" />
+        <activity
             android:name=".detail.DosenstafActivity"
             android:exported="false"
-            android:theme="@style/Theme.ProdiMesin.NoActionBar"/>
-        <!-- Splash Activity menjadi yang pertama dijalankan -->
+            android:theme="@style/Theme.ProdiMesin.NoActionBar" /> <!-- Splash Activity menjadi yang pertama dijalankan -->
         <activity
             android:name=".Splash"
             android:exported="true"

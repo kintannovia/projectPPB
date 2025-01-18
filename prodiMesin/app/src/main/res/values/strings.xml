@@ -16,23 +16,22 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!--home -->
-    <string name="judul_home">Aplikasi Prodi Mesin</string>
-    <string name="ket_home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor</string>
+    <string name="judul_home">IMAChine UIKA</string>
+    <string name="ket_home">Aplikasi IMachine UIKA adalah aplikasi yang dirancang untuk memberikan informasi mengenai Program Studi Teknik Mesin di Universitas IBN Khaldun (UIKA).</string>
     <string name="profil_prodi">Profil Program Studi</string>
 
     <string name="dosenstaff">Dosen dan Staff</string>
     <string name="strukor">Struktur Organisasi</string>
     <string name="faslab">Fasilitas dan Lab</string>
 
-    <string name="ket_faslab">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit.</string>
-    <string name="ket_strukor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit.</string>
-    <string name="ket_dosenstaff">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit.</string>
-    <string name="ket_prodi">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit.</string>
+    <string name="ket_faslab">Informasi mengenai fasilitas dan laboratorium yang mendukung proses pembelajaran dan penelitian di Program Studi Mesin</string>
+    <string name="ket_strukor">Struktur organisasi Prodi Mesin UIKA terdiri dari Ketua Program Studi, Sekretaris, Dosen Pengampu Mata Kuliah, Kepala...</string>
+    <string name="ket_dosenstaff">Dosen dan staf Prodi Mesin UIKA terdiri dari pengajaran,  staf administrasi yang mendukung kelancaran kegiatan aka...</string>
+    <string name="ket_prodi">Program Studi Mesin UIKA (Universitas Ibn Khaldun Bogor) menawarkan pendidikan teknik mesin yang berfokus pa...</string>
     <string name="btn">Lihat Disini ></string>
 
 
-
-    <!-- nama nama dosen dan staff mesin -->>
+    <!-- nama nama dosen dan staff mesin -->
     <string name="pakroy">Roy Waluyo, ST, MT</string>
     <string name="nik_pakroy">NIK/NIDN : 410105227/409098202</string>
     <string name="jabatan_pakroy">Ketua Program Studi</string>
@@ -50,12 +49,11 @@
     <string name="pak_dwi">Dwi Yuliaji, ST, MT</string>
     <string name="nik_pakdwi">NIK/NIDN : 410105228/412088202</string>
     <string name="jabatan_pakdwi">Kepala Laboratorium</string>
-    
-    
+
+
     <string name="pakedi">Edi Sutoyo, ST., M.Si.</string>
     <string name="nik_pakedi">NIK/NIDN : 410100319/412037702</string>
     <string name="jabatan_pakedi">Kepala Laboratorium</string>
-
 
 
     <string name="pak_gatot">  Gatot Eka Pramono, ST, MT</string>
@@ -76,8 +74,8 @@
     <string name="pak_mulya">Dr. Mulya Juarsa, S.Si., MESc</string>
     <string name="nik_pakmulya">NIK/NIDN : 410100617/8877101019</string>
     <string name="jabatan_pakmulya">Dosen</string>
-    
-    
+
+
     <string name="bu_rizky">Rizky Ruliandini, S.Si., M.Si.</string>
     <string name="nik_burizky">NIK/NIDN : 410100528/429128002</string>
     <string name="jabatan_burizky">Dosen</string>
@@ -113,5 +111,20 @@
     <string name="pak_sutejo">Sutejo Prabowo, ST</string>
     <string name="nik_pak_sutejo">NIK: 410 200 259</string>
     <string name="jabatan_paksutejo">Buruh</string>
+
+
+
+
+
+    <!-- Profil Prodi -->
+    <string name="judul_prodi">Tentang dan Sejarah Teknik Mesin FTS UIKA Bogor</string>
+    <string name="profil_text1">Fakultas Teknik dan Sains Universitas Ibn Khaldun Bogor (FTS-UIKA) Bogor berdiri sejak tahun 1974 dengan nama Fakultas Teknik (FT-UIKA). Seiring dengan perkembangan regulasi dan pengembangan institusi maka sejak tahun 2018 Fakultas Teknik berganti nama menjadi Fakultas Teknik dan Sains melalui Keputusan Rektor Nomor: 010/K.13/IIIa/KR-PNFT/UIKA/2018. Fakultas Teknik dan Sains adalah salah satu dari 7 (tujuh) Fakultas yang berada di lingkungan Universitas Ibn Khaldun Bogor.  FTS-UIKA Bogor terdiri dari 4 (empat) Program Studi yaitu 1) Program Studi Teknik Sipil, 2) Program Studi Teknik Mesin, 3) Program Studi Teknik Elektro, dan 4) Program Studi Teknik Informatika. </string>
+    <string name="profil_text2">Jurusan Teknik Mesin tidak melulu soal mesin motor, mobil, dan kegiatan perbengkelan lainnya. Tapi kamu juga akan belajar hal-hal terkait konversi energi, konstruksi dan perancangan, teknik produksi, juga material. Memang benar sih, secara umum kamu akan mempelajari mesin dengan menggunakan dasar fisika dan matematika, seperti pergerakan mesin, aliran air untuk mesin, material dan desain mesin, elemen penting seperti roda gigi dan sumber mata air, metode pengolahan, metode produksi, pengendalian melalui komputer, dsb.</string>
+    <string name="profil_text3">Program Studi Teknik Mesin Fakultas Teknik dan Sains UIKA Bogor dirancang sedemikian rupa, agar alumni Program Studi Teknik Mesin mempunyai pengetahuan dan keterampilan secara komprehensif dan proposional dalam cakupan cukup luas. bekal yang diberikan kepada alumni meliputi pengetahuan tentang sikap dan perilaku, ilmu-ilmu dasar keahlian, dan ilmu-ilmu penunjang, di samping pengetahuan tentang Teknik Mesin atau Mekanikal yang merupakan fokus dari program studi teknik Mesin. secara umum alumni juga mempunyai kompetensi tambahan yang memadai dalam bidang komputer/teknologi informasi, telekomunikasi, dan kewirausahaan. Prodi ini terkareditasi B.</string>
+    <string name="prospek">Prospek Lulusan</string>
+    <string name="prospek1">Profesional konsultan pada bidang teknik, project manager, baik dilembaga pemerintahan maupun swasta, dll.
+ </string>
+    <string name="prospek2">Selain itu Program Studi Teknik Sipil bekerjasama dengan Badan Kerjasama Teknik Mesin (BKSTM) sebagai anggota, hal ini memungkinkan setiap pembelajaran yang ada di program studi selalu terupdate dengan perkembangan ilmu pengetahuan yang ada saat ini.</string>
+
 
 </resources>
