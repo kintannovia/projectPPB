@@ -115,6 +115,10 @@
     <string name="jabatan_paksutejo">Buruh</string>
 
 
+    // our team
+
+    <string name="judul_our_team">Our Team iMachine</string>
+
     <string name="nama_satria">Satria Sudirja</string>
     <string name="npm_satria">221106042871 | Team Leader, Mobile Development</string>
 
