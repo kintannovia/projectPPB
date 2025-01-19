@@ -7,28 +7,210 @@
     tools:context=".ui.gallery.GalleryFragment">
 
     <RelativeLayout
-        android:id="@+id/activiy_main_header"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp">
+        android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/header_activity_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/activity_main_text"
-            android:textColor="@color/black"
-            android:textSize="25sp"
-            android:textStyle="bold" />
+        <!-- Gallery 1 -->
+        <LinearLayout
+            android:id="@+id/group1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/white_box2"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/header_activity_text"
-            android:gravity="center"
-            android:text="@string/sub_activity_text"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/gallery1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gallery1" />
+
+            <TextView
+                android:id="@+id/textGallery1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/text_gallery_1"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Gallery 2 -->
+        <LinearLayout
+            android:id="@+id/group2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/white_box2"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/group1"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/gallery2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gallery2" />
+
+            <TextView
+                android:id="@+id/textGallery2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/text_gallery_2"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Gallery 3 -->
+        <LinearLayout
+            android:id="@+id/group3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/white_box2"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_below="@id/group1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp">
+
+            <ImageView
+                android:id="@+id/gallery3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gallery3" />
+
+            <TextView
+                android:id="@+id/textGallery3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/text_gallery_3"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Gallery 4 -->
+        <LinearLayout
+            android:id="@+id/group4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/white_box2"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_below="@id/group2"
+            android:layout_toRightOf="@id/group3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/gallery4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gallery4" />
+
+            <TextView
+                android:id="@+id/textGallery4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/text_gallery_4"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Gallery 5 -->
+        <LinearLayout
+            android:id="@+id/group5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/white_box2"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_below="@id/group3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/gallery5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gallery5" />
+
+            <TextView
+                android:id="@+id/textGallery5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/text_gallery_5"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <!-- Gallery 6 -->
+        <LinearLayout
+            android:id="@+id/group6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/white_box2"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_below="@id/group4"
+            android:layout_toRightOf="@id/group3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/gallery6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gallery6" />
+
+            <TextView
+                android:id="@+id/textGallery6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/text_gallery_6"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
     </RelativeLayout>
+
 </ScrollView>
