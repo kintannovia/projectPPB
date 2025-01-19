@@ -16,7 +16,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!--home -->
-    <string name="judul_home">IMAChine UIKA</string>
+    <string name="judul_home">iMAChine</string>
     <string name="ket_home">Aplikasi IMachine UIKA adalah aplikasi yang dirancang untuk memberikan informasi mengenai Program Studi Teknik Mesin di Universitas IBN Khaldun (UIKA).</string>
     <string name="profil_prodi">Profil Program Studi</string>
 
@@ -146,5 +146,23 @@
     <string name="text_gallery_6">Laboratorium Energi</string>
 
     //about
+    <string name="judul_about">iMachine</string>
+    <string name="nama_app1">Nama Aplikasi:</string>
+    <string name="nama_app2">iMachine</string>
+    <string name="versi1">Versi:</string>
+    <string name="versi2">1.0.0</string>
+    <string name="deskripsi1">Deskripsi:</string>
+    <string name="deskripsi2">iMachine UIKA adalah aplikasi resmi yang dirancang untuk memberikan informasi lengkap mengenai Program Studi Teknik Mesin di Universitas Ibn Khaldun. Aplikasi ini bertujuan untuk memudahkan akses informasi bagi mahasiswa, calon mahasiswa, dan masyarakat umum.</string>
+    <string name="fitur1">Fitur Utama:</string>
+    <string name="fitur2">• Profil Program Studi: Informasi mengenai visi, misi, dan sejarah program studi</string>
+    <string name="fitur3">• Dosen dan Staf: Daftar dosen dan staf lengkap dengan jabatan dan bidang keahlian</string>
+    <string name="fitur4">• Struktur Organisasi: Gambaran organisasi internal program studi</string>
+    <string name="fitur5">• Fasilitas Laboratorium: Informasi mengenai fasilitas laboratorium yang tersedia</string>
+    <string name="fitur6">• Galeri: Dokumentasi foto program studi</string>
+    <string name="kontak1">Kontak:</string>
+    <string name="kontak2">• Email: teknikmesin@uika.ac.id</string>
+    <string name="kontak3">• Telepon: (021) 123-4567</string>
+    <string name="kontak4">• Alamat: Jl. KH. Sholeh Iskandar, Kota Bogor, Jawa Barat</string>
+    <string name="hak_cipta">Hak cipta © 2025 Program Studi Teknik Mesin UIKA.</string>
 
 </resources>

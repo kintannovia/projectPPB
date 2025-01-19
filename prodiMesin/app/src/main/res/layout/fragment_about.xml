@@ -1,14 +1,259 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.about.AboutFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/logoAbout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="270dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/logo_about">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textImachine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/logoAbout"
+            android:text="@string/judul_about"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textNamaApp1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textImachine"
+            android:text="@string/nama_app1"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textNamaApp2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textNamaApp1"
+            android:text="@string/nama_app2"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textVersi1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textNamaApp2"
+            android:text="@string/versi1"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textVersi2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textVersi1"
+            android:text="@string/versi2"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textDeskripsi1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textVersi2"
+            android:text="@string/deskripsi1"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textDeskripsi2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textDeskripsi1"
+            android:text="@string/deskripsi2"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textFitur1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textDeskripsi2"
+            android:text="@string/fitur1"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textFitur2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textFitur1"
+            android:text="@string/fitur2"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textFitur3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textFitur2"
+            android:text="@string/fitur3"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textFitur4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textFitur3"
+            android:text="@string/fitur4"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textFitur5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textFitur4"
+            android:text="@string/fitur5"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textFitur6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textFitur5"
+            android:text="@string/fitur6"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textKontak1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textFitur6"
+            android:text="@string/kontak1"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textKontak2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textKontak1"
+            android:text="@string/kontak2"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textKontak3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textKontak2"
+            android:text="@string/kontak3"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textKontak4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textKontak3"
+            android:text="@string/kontak4"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:id="@+id/hakCipta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textKontak4"
+            android:text="@string/hak_cipta"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+        </TextView>
+
+    </RelativeLayout>
+
+
+</ScrollView>
