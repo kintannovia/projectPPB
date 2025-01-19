@@ -11,7 +11,9 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import project.uas.ppb.databinding.FragmentHomeBinding
 import project.uas.ppb.detail.DosenstafActivity
+import project.uas.ppb.detail.FasilitasLabActivity
 import project.uas.ppb.detail.ProfilProdi
+import project.uas.ppb.detail.StrukturOrganisasiActivity
 
 
 class HomeFragment : Fragment() {
@@ -20,9 +22,7 @@ class HomeFragment : Fragment() {
     private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
         val homeViewModel =
             ViewModelProvider(this).get(HomeViewModel::class.java)
@@ -30,23 +30,30 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        // Mengambil referensi ke Button
-        val dosenstaffButton: Button = binding.dosenstaff // Pastikan ID sesuai dengan layout XML
-        val button1: Button = binding.button1 // Referensi button1
+        val button1: Button = binding.button1
+        val button2: Button = binding.button2
+        val button3: Button = binding.button3
+        val button4: Button = binding.button4
 
-        // Menetapkan OnClickListener untuk button dosenstaff
-        dosenstaffButton.setOnClickListener {
-            val intent = Intent(activity, DosenstafActivity::class.java)
-            startActivity(intent)
-        }
-
-        // Menetapkan OnClickListener untuk button1
         button1.setOnClickListener {
-            // Intent untuk memulai ProfilProdi
             val intent = Intent(activity, ProfilProdi::class.java)
             startActivity(intent)
         }
 
+        button2.setOnClickListener {
+            val intent = Intent(activity, DosenstafActivity::class.java)
+            startActivity(intent)
+        }
+
+        button3.setOnClickListener {
+            val intent = Intent(activity, StrukturOrganisasiActivity::class.java)
+            startActivity(intent)
+        }
+
+        button4.setOnClickListener {
+            val intent = Intent(activity, FasilitasLabActivity::class.java)
+            startActivity(intent)
+        }
         return root
     }
 
