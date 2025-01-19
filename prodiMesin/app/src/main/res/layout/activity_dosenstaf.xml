@@ -12,14 +12,15 @@
         android:layout_marginBottom="8dp">
 
         <!-- Tombol Back -->
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView18"
-            android:layout_width="44dp"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="16dp"
-            app:srcCompat="@drawable/back" />
+            android:background="@drawable/circle_background"
+            android:src="@drawable/ic_arrow_back" />
 
         <!-- Logo Splash -->
         <ImageView
@@ -152,14 +153,16 @@
                 android:src="@drawable/bgdosen1" />
 
             <ImageView
-                android:background="@drawable/circle_image"
+                android:id="@+id/profileImage"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/bufitriyani"
-                android:clipToOutline="true"
-                android:outlineProvider="background"/>
+            android:background="@drawable/circle_image"
+            android:clipToOutline="true"
+            android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -217,14 +220,16 @@
                 android:src="@drawable/bgdosen1" />
 
             <ImageView
-                android:background="@drawable/circle_image"
+
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/pakbudi"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -282,15 +287,16 @@
                 android:src="@drawable/bgdosen1" />
 
             <ImageView
-                android:background="@drawable/circle_image"
+
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/pakdwi"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
-
+                android:outlineProvider="background" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -346,15 +352,19 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/bgdosen1" />
 
+
+
             <ImageView
-                android:background="@drawable/circle_image"
+
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/pakedi"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -412,14 +422,16 @@
                 android:src="@drawable/bgdosen1" />
 
             <ImageView
-                android:background="@drawable/circle_image"
+
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/pakgatot"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -477,14 +489,15 @@
                 android:src="@drawable/bgdosen1" />
 
             <ImageView
-                android:background="@drawable/circle_image"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/pakanton"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="183dp"
@@ -542,14 +555,15 @@
                 android:src="@drawable/bgdosen1" />
 
             <ImageView
-                android:background="@drawable/circle_image"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/budewi"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -607,14 +621,15 @@
                 android:src="@drawable/bgdosen1" />
 
             <ImageView
-                android:background="@drawable/circle_image"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/pakmulya"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -672,14 +687,15 @@
                 android:src="@drawable/bgdosen1" />
 
             <ImageView
-                android:background="@drawable/circle_image"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/burizki"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -736,15 +752,17 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/bgdosen1" />
 
+
             <ImageView
-                android:background="@drawable/circle_image"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/pakyogi"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -802,14 +820,15 @@
                 android:src="@drawable/bgdosen1" />
 
             <ImageView
-                android:background="@drawable/circle_image"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/pakirvan1"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -866,16 +885,17 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/bgdosen1" />
 
+
             <ImageView
-                android:background="@drawable/circle_image"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/pakaris"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
-
+                android:outlineProvider="background" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -921,15 +941,17 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/bgdosen1" />
 
+
             <ImageView
-                android:background="@drawable/circle_image"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/pakmarzuki"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -976,16 +998,17 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/bgdosen1" />
 
+
             <ImageView
-                android:background="@drawable/circle_image"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/bugadis"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
-
+                android:outlineProvider="background" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1042,15 +1065,18 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/bgdosen1" />
 
+
+
             <ImageView
-                android:background="@drawable/circle_image"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/pakagung"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1108,14 +1134,15 @@
                 android:src="@drawable/bgdosen1" />
 
             <ImageView
-                android:background="@drawable/circle_image"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="60dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/paksutejo"
+                android:background="@drawable/circle_image"
                 android:clipToOutline="true"
-                android:outlineProvider="background"/>
+                android:outlineProvider="background" />
 
             <LinearLayout
                 android:layout_width="match_parent"

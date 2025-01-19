@@ -31,9 +31,10 @@ class Splash : AppCompatActivity() {
 
         // Daftar gambar untuk animasi bergantian
         val images = listOf(
-            R.drawable.fts,
-            R.drawable.uikalogo,
-            R.drawable.splashlogo
+            R.drawable.splashlogo,
+            R.drawable.ftsuika,
+            R.drawable.versi
+
         )
 
         // Handler untuk animasi teks

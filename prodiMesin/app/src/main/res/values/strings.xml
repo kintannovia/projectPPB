@@ -113,7 +113,19 @@
     <string name="jabatan_paksutejo">Buruh</string>
 
 
-    // our team
+
+
+
+    <!-- Profil Prodi -->
+    <string name="judul_prodi">Tentang dan Sejarah Teknik Mesin FTS UIKA Bogor</string>
+    <string name="profil_text1">Fakultas Teknik dan Sains Universitas Ibn Khaldun Bogor (FTS-UIKA) Bogor berdiri sejak tahun 1974 dengan nama Fakultas Teknik (FT-UIKA). Seiring dengan perkembangan regulasi dan pengembangan institusi maka sejak tahun 2018 Fakultas Teknik berganti nama menjadi Fakultas Teknik dan Sains melalui Keputusan Rektor Nomor: 010/K.13/IIIa/KR-PNFT/UIKA/2018. Fakultas Teknik dan Sains adalah salah satu dari 7 (tujuh) Fakultas yang berada di lingkungan Universitas Ibn Khaldun Bogor.  FTS-UIKA Bogor terdiri dari 4 (empat) Program Studi yaitu 1) Program Studi Teknik Sipil, 2) Program Studi Teknik Mesin, 3) Program Studi Teknik Elektro, dan 4) Program Studi Teknik Informatika. </string>
+    <string name="profil_text2">Jurusan Teknik Mesin tidak melulu soal mesin motor, mobil, dan kegiatan perbengkelan lainnya. Tapi kamu juga akan belajar hal-hal terkait konversi energi, konstruksi dan perancangan, teknik produksi, juga material. Memang benar sih, secara umum kamu akan mempelajari mesin dengan menggunakan dasar fisika dan matematika, seperti pergerakan mesin, aliran air untuk mesin, material dan desain mesin, elemen penting seperti roda gigi dan sumber mata air, metode pengolahan, metode produksi, pengendalian melalui komputer, dsb.</string>
+    <string name="profil_text3">Program Studi Teknik Mesin Fakultas Teknik dan Sains UIKA Bogor dirancang sedemikian rupa, agar alumni Program Studi Teknik Mesin mempunyai pengetahuan dan keterampilan secara komprehensif dan proposional dalam cakupan cukup luas. bekal yang diberikan kepada alumni meliputi pengetahuan tentang sikap dan perilaku, ilmu-ilmu dasar keahlian, dan ilmu-ilmu penunjang, di samping pengetahuan tentang Teknik Mesin atau Mekanikal yang merupakan fokus dari program studi teknik Mesin. secara umum alumni juga mempunyai kompetensi tambahan yang memadai dalam bidang komputer/teknologi informasi, telekomunikasi, dan kewirausahaan. Prodi ini terkareditasi B.</string>
+    <string name="prospek">Prospek Lulusan</string>
+    <string name="prospek1">Profesional konsultan pada bidang teknik, project manager, baik dilembaga pemerintahan maupun swasta, dll.
+ </string>
+    <string name="prospek2">Selain itu Program Studi Teknik Sipil bekerjasama dengan Badan Kerjasama Teknik Mesin (BKSTM) sebagai anggota, hal ini memungkinkan setiap pembelajaran yang ada di program studi selalu terupdate dengan perkembangan ilmu pengetahuan yang ada saat ini.</string>
+
 
     <string name="judul_our_team">Our Team iMachine</string>
 
@@ -126,15 +138,7 @@
     <string name="nama_kania">Bunga Kania</string>
     <string name="npm_kania">221106042729 | Documentation</string>
 
-    <!-- Profil Prodi -->
-    <string name="judul_prodi">Tentang dan Sejarah Teknik Mesin FTS UIKA Bogor</string>
-    <string name="profil_text1">Fakultas Teknik dan Sains Universitas Ibn Khaldun Bogor (FTS-UIKA) Bogor berdiri sejak tahun 1974 dengan nama Fakultas Teknik (FT-UIKA). Seiring dengan perkembangan regulasi dan pengembangan institusi maka sejak tahun 2018 Fakultas Teknik berganti nama menjadi Fakultas Teknik dan Sains melalui Keputusan Rektor Nomor: 010/K.13/IIIa/KR-PNFT/UIKA/2018. Fakultas Teknik dan Sains adalah salah satu dari 7 (tujuh) Fakultas yang berada di lingkungan Universitas Ibn Khaldun Bogor.  FTS-UIKA Bogor terdiri dari 4 (empat) Program Studi yaitu 1) Program Studi Teknik Sipil, 2) Program Studi Teknik Mesin, 3) Program Studi Teknik Elektro, dan 4) Program Studi Teknik Informatika. </string>
-    <string name="profil_text2">Jurusan Teknik Mesin tidak melulu soal mesin motor, mobil, dan kegiatan perbengkelan lainnya. Tapi kamu juga akan belajar hal-hal terkait konversi energi, konstruksi dan perancangan, teknik produksi, juga material. Memang benar sih, secara umum kamu akan mempelajari mesin dengan menggunakan dasar fisika dan matematika, seperti pergerakan mesin, aliran air untuk mesin, material dan desain mesin, elemen penting seperti roda gigi dan sumber mata air, metode pengolahan, metode produksi, pengendalian melalui komputer, dsb.</string>
-    <string name="profil_text3">Program Studi Teknik Mesin Fakultas Teknik dan Sains UIKA Bogor dirancang sedemikian rupa, agar alumni Program Studi Teknik Mesin mempunyai pengetahuan dan keterampilan secara komprehensif dan proposional dalam cakupan cukup luas. bekal yang diberikan kepada alumni meliputi pengetahuan tentang sikap dan perilaku, ilmu-ilmu dasar keahlian, dan ilmu-ilmu penunjang, di samping pengetahuan tentang Teknik Mesin atau Mekanikal yang merupakan fokus dari program studi teknik Mesin. secara umum alumni juga mempunyai kompetensi tambahan yang memadai dalam bidang komputer/teknologi informasi, telekomunikasi, dan kewirausahaan. Prodi ini terkareditasi B.</string>
-    <string name="prospek">Prospek Lulusan</string>
-    <string name="prospek1">Profesional konsultan pada bidang teknik, project manager, baik dilembaga pemerintahan maupun swasta, dll.
- </string>
-    <string name="prospek2">Selain itu Program Studi Teknik Sipil bekerjasama dengan Badan Kerjasama Teknik Mesin (BKSTM) sebagai anggota, hal ini memungkinkan setiap pembelajaran yang ada di program studi selalu terupdate dengan perkembangan ilmu pengetahuan yang ada saat ini.</string>
+
 
 
     // gallery
