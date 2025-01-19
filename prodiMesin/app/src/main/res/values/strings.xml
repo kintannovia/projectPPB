@@ -116,6 +116,7 @@
 
 
 
+
     <!-- Profil Prodi -->
     <string name="judul_prodi">Tentang dan Sejarah Teknik Mesin FTS UIKA Bogor</string>
     <string name="profil_text1">Fakultas Teknik dan Sains Universitas Ibn Khaldun Bogor (FTS-UIKA) Bogor berdiri sejak tahun 1974 dengan nama Fakultas Teknik (FT-UIKA). Seiring dengan perkembangan regulasi dan pengembangan institusi maka sejak tahun 2018 Fakultas Teknik berganti nama menjadi Fakultas Teknik dan Sains melalui Keputusan Rektor Nomor: 010/K.13/IIIa/KR-PNFT/UIKA/2018. Fakultas Teknik dan Sains adalah salah satu dari 7 (tujuh) Fakultas yang berada di lingkungan Universitas Ibn Khaldun Bogor.  FTS-UIKA Bogor terdiri dari 4 (empat) Program Studi yaitu 1) Program Studi Teknik Sipil, 2) Program Studi Teknik Mesin, 3) Program Studi Teknik Elektro, dan 4) Program Studi Teknik Informatika. </string>
@@ -126,5 +127,15 @@
  </string>
     <string name="prospek2">Selain itu Program Studi Teknik Sipil bekerjasama dengan Badan Kerjasama Teknik Mesin (BKSTM) sebagai anggota, hal ini memungkinkan setiap pembelajaran yang ada di program studi selalu terupdate dengan perkembangan ilmu pengetahuan yang ada saat ini.</string>
 
+=======
+    <string name="nama_satria">Satria Sudirja</string>
+    <string name="npm_satria">221106042871 | Team Leader, Mobile Development</string>
+
+    <string name="nama_kintan">Kintan Novia Azzahra</string>
+    <string name="npm_kintan">221106042937 | Mobile Development</string>
+
+    <string name="nama_kania">Bunga Kania</string>
+    <string name="npm_kania">221106042729 | Documentation</string>
+>>>>>>> 4ed61296a73841e6f6a0419dbd2b04e99f7e8705
 
 </resources>

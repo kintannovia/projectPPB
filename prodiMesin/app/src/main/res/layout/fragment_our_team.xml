@@ -8,15 +8,120 @@
     android:scrollbars="none"
     tools:context="project.uas.ppb.ui.ourTeam.OurTeamFragment">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
 
+        <!-- Card 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/white_box2"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!-- Image Satria -->
+            <ImageView
+                android:id="@+id/imageSatria"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_satria" />
+
+            <!-- Text Details -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/nama_satria"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/npm_satria"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    <!-- Card 2 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/white_box2"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!-- Image Kintan -->
+            <ImageView
+                android:id="@+id/imageKintan"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_kintan" />
+
+            <!-- Text Details -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/nama_kintan"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/npm_kintan"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    <!-- Card 3 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/white_box2"
+        android:padding="10dp"
+        android:elevation="4dp">
+
+        <!-- Image Kania -->
         <ImageView
-            android:id="@+id/imageSatria"
+            android:id="@+id/imageKania"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="120dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/imagesatria" />
-    </RelativeLayout>
-</ScrollView>
+            android:src="@drawable/image_kania" />
+
+        <!-- Text Details -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/nama_kania"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/npm_kania"
+            android:textSize="10sp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
