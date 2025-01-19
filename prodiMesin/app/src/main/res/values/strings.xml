@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">iMachine</string>
+    <string name="app_name">iMACHINE</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_desc">Navigation header</string>
@@ -144,6 +144,8 @@
     <string name="text_gallery_4">Laboratorium Mekanika Struktur</string>
     <string name="text_gallery_5">Laboratorium Manufaktur</string>
     <string name="text_gallery_6">Laboratorium Energi</string>
+    <string name="text_gallery_7">Seminar K3 Umum</string>
+    <string name="text_gallery_8">Malam Keakraban Himpunan Mahasiswa Mesin</string>
 
     //about
     <string name="judul_about">iMachine</string>

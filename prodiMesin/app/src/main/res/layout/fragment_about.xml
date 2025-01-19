@@ -110,88 +110,10 @@
         </TextView>
 
         <TextView
-            android:id="@+id/textFitur1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/textDeskripsi2"
-            android:text="@string/fitur1"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="30dp"
-            android:textSize="12sp"
-            android:textStyle="bold"
-            android:textColor="@color/black">
-        </TextView>
-
-        <TextView
-            android:id="@+id/textFitur2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/textFitur1"
-            android:text="@string/fitur2"
-            android:layout_marginTop="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:textSize="12sp"
-            android:textColor="@color/black">
-        </TextView>
-
-        <TextView
-            android:id="@+id/textFitur3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/textFitur2"
-            android:text="@string/fitur3"
-            android:layout_marginTop="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:textSize="12sp"
-            android:textColor="@color/black">
-        </TextView>
-
-        <TextView
-            android:id="@+id/textFitur4"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/textFitur3"
-            android:text="@string/fitur4"
-            android:layout_marginTop="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:textSize="12sp"
-            android:textColor="@color/black">
-        </TextView>
-
-        <TextView
-            android:id="@+id/textFitur5"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/textFitur4"
-            android:text="@string/fitur5"
-            android:layout_marginTop="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:textSize="12sp"
-            android:textColor="@color/black">
-        </TextView>
-
-        <TextView
-            android:id="@+id/textFitur6"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/textFitur5"
-            android:text="@string/fitur6"
-            android:layout_marginTop="2dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:textSize="12sp"
-            android:textColor="@color/black">
-        </TextView>
-
-        <TextView
             android:id="@+id/textKontak1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/textFitur6"
+            android:layout_below="@+id/textDeskripsi2"
             android:text="@string/kontak1"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="30dp"
