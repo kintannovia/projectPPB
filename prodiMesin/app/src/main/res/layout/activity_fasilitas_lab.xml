@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/fasilits_lab"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".detail.FasilitasLabActivity">
+    android:id="@+id/fasilitas_lab"
+    android:background="@color/white">
 
+    <!-- Header -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_marginBottom="8dp"
         android:background="@drawable/white_box2"
         android:elevation="4dp"
-        android:orientation="vertical"
         android:padding="8dp">
 
         <ImageButton
@@ -27,15 +24,325 @@
             android:layout_marginLeft="20dp"/>
 
         <TextView
-            android:id="@+id/text_struktur"
+            android:id="@+id/text_fasilitas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/judul_fasilitas"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textStyle="bold"
-            android:layout_marginTop="26dp"
+            android:layout_marginTop="28dp"
             android:layout_toRightOf="@id/back_button" />
     </RelativeLayout>
 
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <!-- Fasilitas 1 -->
+            <LinearLayout
+                android:id="@+id/group1"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/white_box2"
+                android:elevation="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp">
+
+                <ImageView
+                    android:id="@+id/gallery1"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gallery1" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp">
+
+                    <TextView
+                        android:id="@+id/fas1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_gallery_1"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/desk1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/desk_fasilitas2"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp"
+                        android:layout_marginTop="5dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Fasilitas 2 -->
+            <LinearLayout
+                android:id="@+id/group2"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/white_box2"
+                android:elevation="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:id="@+id/gallery2"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gallery2" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/fas2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_gallery_2"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:gravity="start"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:id="@+id/desk2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/desk_fasilitas2"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Fasilitas 3 -->
+            <LinearLayout
+                android:id="@+id/group3"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/white_box2"
+                android:elevation="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:id="@+id/gallery3"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gallery3" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/fas3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_gallery_3"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:gravity="start"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:id="@+id/desk3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/desk_fasilitas3"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Fasilitas 4 -->
+            <LinearLayout
+                android:id="@+id/group4"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/white_box2"
+                android:elevation="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:id="@+id/gallery4"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gallery4" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/fas4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_gallery_4"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:gravity="start"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:id="@+id/desk4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/desk_fasilitas4"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Fasilitas 5 -->
+            <LinearLayout
+                android:id="@+id/group5"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/white_box2"
+                android:elevation="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:id="@+id/gallery5"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gallery5" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/fas5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_gallery_5"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:gravity="start"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:id="@+id/desk5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/desk_fasilitas5"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Fasilitas 6 -->
+            <LinearLayout
+                android:id="@+id/group6"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/white_box2"
+                android:elevation="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/gallery6"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gallery6" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/fas6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_gallery_6"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:gravity="start"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:id="@+id/desk6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/desk_fasilitas6"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

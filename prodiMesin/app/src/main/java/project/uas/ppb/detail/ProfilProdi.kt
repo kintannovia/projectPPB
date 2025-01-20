@@ -39,7 +39,7 @@ class ProfilProdi : AppCompatActivity() {
         }
 
         // Tombol Back Listener
-        val backButton = findViewById<ImageView>(R.id.imageView18)
+        val backButton = findViewById<ImageView>(R.id.back_button)
         backButton.setOnClickListener {
             // Menampilkan Toast
             Toast.makeText(this, "Berhasil Kembali", Toast.LENGTH_SHORT).show()
