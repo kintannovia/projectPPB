@@ -38,4 +38,33 @@
             android:layout_toRightOf="@id/back_button" />
     </RelativeLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/teks_struktur_organisasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/teks_struktur"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/image_struktur"
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+            android:layout_below="@id/teks_struktur_organisasi"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/struktur_organisasi"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
 </LinearLayout>
