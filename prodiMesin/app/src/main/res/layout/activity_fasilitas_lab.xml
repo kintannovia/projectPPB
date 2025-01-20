@@ -85,7 +85,7 @@
                         android:id="@+id/desk1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/desk_fasilitas2"
+                        android:text="@string/desk_fasilitas1"
                         android:textColor="@android:color/black"
                         android:textSize="10sp"
                         android:layout_marginTop="5dp" />
@@ -93,56 +93,6 @@
             </LinearLayout>
 
             <!-- Fasilitas 2 -->
-            <LinearLayout
-                android:id="@+id/group2"
-                android:layout_width="match_parent"
-                android:layout_height="110dp"
-                android:background="@drawable/white_box2"
-                android:elevation="4dp"
-                android:orientation="horizontal"
-                android:padding="8dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp">
-
-                <ImageView
-                    android:id="@+id/gallery2"
-                    android:layout_width="120dp"
-                    android:layout_height="100dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/gallery2" />
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginRight="12dp"
-                    android:gravity="start">
-
-                    <TextView
-                        android:id="@+id/fas2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/text_gallery_2"
-                        android:textColor="@android:color/black"
-                        android:textStyle="bold"
-                        android:textSize="12sp"
-                        android:gravity="start"
-                        android:layout_marginTop="10dp"/>
-
-                    <TextView
-                        android:id="@+id/desk2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/desk_fasilitas2"
-                        android:textColor="@android:color/black"
-                        android:textSize="10sp"
-                        android:layout_marginTop="5dp"/>
-                </LinearLayout>
-            </LinearLayout>
-
-            <!-- Fasilitas 3 -->
             <LinearLayout
                 android:id="@+id/group3"
                 android:layout_width="match_parent"
@@ -192,7 +142,7 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- Fasilitas 4 -->
+            <!-- Fasilitas 3 -->
             <LinearLayout
                 android:id="@+id/group4"
                 android:layout_width="match_parent"
@@ -242,7 +192,7 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- Fasilitas 5 -->
+            <!-- Fasilitas 4 -->
             <LinearLayout
                 android:id="@+id/group5"
                 android:layout_width="match_parent"
@@ -292,7 +242,7 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- Fasilitas 6 -->
+            <!-- Fasilitas 5 -->
             <LinearLayout
                 android:id="@+id/group6"
                 android:layout_width="match_parent"

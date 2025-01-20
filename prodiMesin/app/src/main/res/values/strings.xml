@@ -175,7 +175,7 @@
 
     //fasilitas lab
     <string name="judul_fasilitas">Fasilitas Lab</string>
-    <string name="desk_fasilitas1">Fasilitas Lab</string> //alat dingin
+    <string name="desk_fasilitas1">Digunakan untuk mempelajari teknologi pendinginan dalam bidang teknik mesin.</string> //alat dingin
     <string name="desk_fasilitas2">Pusat kegiatan mahasiswa teknik mesin untuk berorganisasi, berdiskusi, dan mengembangkan potensi diri.</string>
     <string name="desk_fasilitas3">Tempat untuk mempelajari dan mengembangkan sistem kontrol otomatis serta merancang dan membangun robot.</string>
     <string name="desk_fasilitas4">Laboratorium ini difokuskan pada pengujian dan analisis kekuatan serta stabilitas struktur bangunan atau komponen mesin.</string>
