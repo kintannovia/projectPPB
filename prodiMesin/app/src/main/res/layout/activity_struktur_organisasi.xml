@@ -63,7 +63,7 @@
             android:layout_below="@id/teks_struktur_organisasi"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:src="@drawable/struktur_organisasi"
+            android:src="@drawable/struktur_organisasi_mesin"
             android:layout_centerInParent="true"/>
     </RelativeLayout>
 
