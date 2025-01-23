@@ -7,8 +7,7 @@
 - **Informasi Program Studi**: Menyediakan deskripsi umum, visi, misi, dan tujuan program studi Teknik Mesin.
 - **Profil Dosen**: Menampilkan daftar dosen beserta informasi singkat tentang latar belakang mereka.
 - **Fasilitas**: Informasi tentang fasilitas yang tersedia di program studi Teknik Mesin.
-- **Berita & Acara**: Menampilkan berita dan acara terbaru terkait program studi.
-- **Kontak & Lokasi**: Informasi kontak serta lokasi kampus.
+- **Struktur Organisasi**: Menampilkan struktur organisasi pada program studi Teknik Mesin.
 
 ## Kontributor
 - **Kintan Novia Azzahra** (221106042937) - Mobile Development
