@@ -1,4 +1,4 @@
-# ⚙️ iMACHINE - Aplikasi Profil Program Studi Teknik Mesin ⚙️
+# ⚙️ iMACHINE - Information Mechanical ⚙️
 
 ## Deskripsi
 **iMACHINE** adalah aplikasi mobile berbasis Android yang dirancang untuk menampilkan profil program studi Teknik Mesin. Aplikasi ini dikembangkan menggunakan **Android Studio** dengan bahasa pemrograman **Kotlin** sebagai bagian dari tugas mata kuliah **Pemrograman Perangkat Bergerak**.
